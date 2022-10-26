@@ -17,7 +17,7 @@ app.get('/', (req,res) => res.render('index', {
         members
 }))
 
-//Set the static folder.
+//Set the static folder
 //serve as the middleware.
 app.use(express.static(path.join((__dirname,'public'))));
 
