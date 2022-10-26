@@ -60,7 +60,7 @@ app.listen(port, (err,data) => {
 // Express has a router we can store route in other file and then export them .
 // we can parse incoming data from body-parser or using express.
 
-//MIDDLEWARE
+// MIDDLEWARE. 
 // This function has access to req and res object.
 // express has its own middleware but we can also have custom middleware.
 // 
