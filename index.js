@@ -11,7 +11,7 @@ const port=process.env.PORT || 3000;
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
-//Homepage route.
+//Homepage route
 app.get('/', (req,res) => res.render('index', {
         title:"Title of page",
         members
